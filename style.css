@@ -1,0 +1,151 @@
+header {
+	background: url(pics/header3.jpg) no-repeat 0 -20px;
+	height: 300px;
+	border-bottom: 2x solid #8E7E7E;
+	background-size: 100%;
+}
+
+.welcome {
+	color: white;
+	font-size: 40px;
+	padding-top: 55px;
+	padding-left: 130px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	width: 600px;
+	justify-content: space-around;
+	margin-top: 70px;
+	margin-left: 120px;
+}
+
+.menu>li {
+	color: #431717;
+	font-size: 25px;
+	font-family: Garamond;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid #865E73;
+	border-radius: 15px;
+	background: #D1BBBB;
+	opacity: 0.6;
+}
+
+.gallery {
+	border: 0.3px solid black;
+	background-color: #F6DCD5;
+}
+
+.vertical {
+	display: flex;	
+	justify-content: space-between;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+}
+
+.vertical img {
+	display: inline-block; 
+	height: 30%;
+	width: 60%;
+	border-radius: 10px;
+	border: 2px solid #91422F;
+}
+
+.vertical>a:first-child {
+	margin-left: 100px;
+}
+
+
+.horizontal {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.horizontal img {
+	display: inline-block;
+	width: 60%;
+	height: 18%;
+	border-radius: 10px;
+	border: 2px solid #91422F;
+}
+
+.horizontal>a:first-child {
+	margin-left: 100px;
+}
+
+footer {
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	background: url(pics/header2.jpg);
+}
+
+footer .contact {
+	padding-left: 50px;
+	color: #3C1212;
+	font-size: 25px;
+	font-family: Garamond;
+	font-weight: bold;
+	margin-top:-15px;
+}
+
+footer .contact>p {
+	margin-bottom: -20px;
+}
+
+footer .find {
+	color: #3C1212;
+	font-size: 25px;
+	font-family: Garamond;
+	font-weight: bold;
+}
+
+footer .social {
+	margin-left: -160px;
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.vk {
+	background: url("pics/sprite2.png") -380px -29px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20%;
+	}
+
+.fb {	
+	background: url("pics/sprite2.png") -37px -29px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20%;
+	
+}
+
+.inst {	
+	background: url("pics/sprite2.png") -134px -29px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20%;
+	
+}
+
+.copy {
+	font-family: Garamond;
+	color: #722F1E;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 50px;
+	padding-top: 20px;
+}
+
+footer a {
+	background: white;
+	opacity: 1;
+}
